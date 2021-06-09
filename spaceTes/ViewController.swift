@@ -24,10 +24,10 @@ class ViewController: UIViewController {
     
     @IBAction func navigateToFuel(_ sender: Any) {
         //Code for Navigation to Fuel Room
-        /*let fuelStoryboard = UIStoryboard(name: "Fuel", bundle: nil)
+        let fuelStoryboard = UIStoryboard(name: "Fuel", bundle: nil)
         let fuel = fuelStoryboard.instantiateViewController(withIdentifier: "fuelStoryboard") as! FuelViewController
-        fuel.source = .control
-        self.present(fuel, animated: true)*/
+      //  fuel.source = .control
+        self.present(fuel, animated: true)
     }
     
     @IBAction func navigateToElectrical(_ sender: Any) {
