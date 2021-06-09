@@ -13,7 +13,6 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-
     
     @IBAction func navigateToCockpit(_ sender: Any) {
         //Code for Navigating to Cockpit Room
