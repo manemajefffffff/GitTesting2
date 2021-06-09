@@ -53,28 +53,13 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DZQ-J0-VyJ">
-                                <rect key="frame" x="39" y="495" width="158" height="32"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                <state key="normal" title="Cockpit room            &gt;">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                                <connections>
-                                    <action selector="navigateToCockpit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aiy-2K-c6A"/>
-                                </connections>
-                            </button>
-                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.035389360039999998" green="0.0010522555089999999" blue="0.2470759153" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                        <color key="backgroundColor" red="0.039215686274509803" green="0.015686274509803921" blue="0.24313725490196078" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="105.79710144927537" y="88.392857142857139"/>
-            <point key="canvasLocation" x="139" y="131"/>
         </scene>
     </scenes>
 </document>

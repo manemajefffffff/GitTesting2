@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Y6W-OH-hqX">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Fuel View Controller-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController storyboardIdentifier="fuelStoryboard" id="Y6W-OH-hqX" customClass="FuelViewController" customModule="spaceTes" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Here is the fuel room" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BDB-FK-iPE">
+                                <rect key="frame" x="57" y="430" width="300" height="36"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="30"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="It's directly have access to" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gME-cu-AJ2">
+                                <rect key="frame" x="57" y="481" width="300" height="19.5"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="16"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oG2-nJ-Vcq">
+                                <rect key="frame" x="57" y="525" width="300" height="32"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <state key="normal" title="Electrical room            &gt;">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="01G-C2-aC8">
+                                <rect key="frame" x="57" y="571" width="300" height="32"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <state key="normal" title="Control room               &gt;">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="navigateToControl:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="Kvi-SP-dps"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" red="0.039215686274509803" green="0.015686274509803921" blue="0.24313725490196078" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="oG2-nJ-Vcq" firstAttribute="top" secondItem="gME-cu-AJ2" secondAttribute="bottom" constant="24.5" id="4cA-jt-XKE"/>
+                            <constraint firstItem="BDB-FK-iPE" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="FEp-2h-V4L"/>
+                            <constraint firstItem="01G-C2-aC8" firstAttribute="trailing" secondItem="oG2-nJ-Vcq" secondAttribute="trailing" id="HKV-Kj-MJy"/>
+                            <constraint firstItem="oG2-nJ-Vcq" firstAttribute="leading" secondItem="gME-cu-AJ2" secondAttribute="leading" id="Jsc-I7-ZCz"/>
+                            <constraint firstItem="gME-cu-AJ2" firstAttribute="trailing" secondItem="BDB-FK-iPE" secondAttribute="trailing" id="WpB-aH-rkP"/>
+                            <constraint firstItem="BDB-FK-iPE" firstAttribute="centerY" secondItem="5EZ-qb-Rvc" secondAttribute="centerY" id="hqe-JD-UZj"/>
+                            <constraint firstItem="01G-C2-aC8" firstAttribute="top" secondItem="oG2-nJ-Vcq" secondAttribute="bottom" constant="14" id="oVs-xO-bEC"/>
+                            <constraint firstItem="oG2-nJ-Vcq" firstAttribute="trailing" secondItem="gME-cu-AJ2" secondAttribute="trailing" id="r0L-jw-d1z"/>
+                            <constraint firstItem="gME-cu-AJ2" firstAttribute="top" secondItem="BDB-FK-iPE" secondAttribute="bottom" constant="15" id="sLH-zX-sQZ"/>
+                            <constraint firstItem="01G-C2-aC8" firstAttribute="leading" secondItem="oG2-nJ-Vcq" secondAttribute="leading" id="ste-HN-mfq"/>
+                            <constraint firstItem="gME-cu-AJ2" firstAttribute="leading" secondItem="BDB-FK-iPE" secondAttribute="leading" id="tHp-sm-5MN"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="139" y="131"/>
+        </scene>
+    </scenes>
+</document>

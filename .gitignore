@@ -1,4 +1,11 @@
 
 *.xcuserstate
 
+*.plist
+
+
+*.xcuserstate
+
 .DS_Store
+
+*.plist
