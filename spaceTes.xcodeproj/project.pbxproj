@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9F0F750226709C00006F452A /* Cockpit.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F0F750126709C00006F452A /* Cockpit.storyboard */; };
+		9F0F750626709C65006F452A /* CockpitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0F750526709C65006F452A /* CockpitViewController.swift */; };
 		07AD174426709DA4005D5308 /* ControlRoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07AD174326709DA4005D5308 /* ControlRoomViewController.swift */; };
 		9F0F750226709C00006F452A /* Cockpit.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F0F750126709C00006F452A /* Cockpit.storyboard */; };
 		9F0F750626709C65006F452A /* CockpitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0F750526709C65006F452A /* CockpitViewController.swift */; };
@@ -19,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9F0F750126709C00006F452A /* Cockpit.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Cockpit.storyboard; sourceTree = "<group>"; };
+		9F0F750526709C65006F452A /* CockpitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CockpitViewController.swift; sourceTree = "<group>"; };
 		07AD174326709DA4005D5308 /* ControlRoomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlRoomViewController.swift; sourceTree = "<group>"; };
 		9F0F750126709C00006F452A /* Cockpit.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Cockpit.storyboard; sourceTree = "<group>"; };
 		9F0F750526709C65006F452A /* CockpitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CockpitViewController.swift; sourceTree = "<group>"; };
