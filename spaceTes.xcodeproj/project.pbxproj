@@ -82,6 +82,7 @@
 				BF9958A82670899D00ED60CD /* ViewController.swift */,
 				BF9958AA2670899D00ED60CD /* Main.storyboard */,
 				07AD174326709DA4005D5308 /* ControlRoomViewController.swift */,
+				D4BD71F72670C78C000EB0F9 /* ElectricalViewController.swift */,
 				BF9958AD2670899E00ED60CD /* Assets.xcassets */,
 				BF9958AF2670899E00ED60CD /* LaunchScreen.storyboard */,
 				BF9958B22670899E00ED60CD /* Info.plist */,
