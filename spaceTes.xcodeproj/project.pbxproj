@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9F0F750226709C00006F452A /* Cockpit.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F0F750126709C00006F452A /* Cockpit.storyboard */; };
+		9F0F750626709C65006F452A /* CockpitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0F750526709C65006F452A /* CockpitViewController.swift */; };
+		07AD174426709DA4005D5308 /* ControlRoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07AD174326709DA4005D5308 /* ControlRoomViewController.swift */; };
+		9F0F750226709C00006F452A /* Cockpit.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F0F750126709C00006F452A /* Cockpit.storyboard */; };
+		9F0F750626709C65006F452A /* CockpitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0F750526709C65006F452A /* CockpitViewController.swift */; };
 		BF9958A52670899D00ED60CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF9958A42670899D00ED60CD /* AppDelegate.swift */; };
 		BF9958A72670899D00ED60CD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF9958A62670899D00ED60CD /* SceneDelegate.swift */; };
 		BF9958A92670899D00ED60CD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF9958A82670899D00ED60CD /* ViewController.swift */; };
@@ -16,6 +21,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9F0F750126709C00006F452A /* Cockpit.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Cockpit.storyboard; sourceTree = "<group>"; };
+		9F0F750526709C65006F452A /* CockpitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CockpitViewController.swift; sourceTree = "<group>"; };
+		07AD174326709DA4005D5308 /* ControlRoomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlRoomViewController.swift; sourceTree = "<group>"; };
+		9F0F750126709C00006F452A /* Cockpit.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Cockpit.storyboard; sourceTree = "<group>"; };
+		9F0F750526709C65006F452A /* CockpitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CockpitViewController.swift; sourceTree = "<group>"; };
 		BF9958A12670899D00ED60CD /* spaceTes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = spaceTes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF9958A42670899D00ED60CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BF9958A62670899D00ED60CD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +47,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9F0F750026709AC8006F452A /* Cockpit */ = {
+			isa = PBXGroup;
+			children = (
+				9F0F750126709C00006F452A /* Cockpit.storyboard */,
+				9F0F750526709C65006F452A /* CockpitViewController.swift */,
+			);
+			path = Cockpit;
+			sourceTree = "<group>";
+		};
 		BF9958982670899D00ED60CD = {
 			isa = PBXGroup;
 			children = (
@@ -56,10 +75,12 @@
 		BF9958A32670899D00ED60CD /* spaceTes */ = {
 			isa = PBXGroup;
 			children = (
+				9F0F750026709AC8006F452A /* Cockpit */,
 				BF9958A42670899D00ED60CD /* AppDelegate.swift */,
 				BF9958A62670899D00ED60CD /* SceneDelegate.swift */,
 				BF9958A82670899D00ED60CD /* ViewController.swift */,
 				BF9958AA2670899D00ED60CD /* Main.storyboard */,
+				07AD174326709DA4005D5308 /* ControlRoomViewController.swift */,
 				BF9958AD2670899E00ED60CD /* Assets.xcassets */,
 				BF9958AF2670899E00ED60CD /* LaunchScreen.storyboard */,
 				BF9958B22670899E00ED60CD /* Info.plist */,
@@ -125,6 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF9958B12670899E00ED60CD /* LaunchScreen.storyboard in Resources */,
+				9F0F750226709C00006F452A /* Cockpit.storyboard in Resources */,
 				BF9958AE2670899E00ED60CD /* Assets.xcassets in Resources */,
 				BF9958AC2670899D00ED60CD /* Main.storyboard in Resources */,
 			);
@@ -139,7 +161,9 @@
 			files = (
 				BF9958A92670899D00ED60CD /* ViewController.swift in Sources */,
 				BF9958A52670899D00ED60CD /* AppDelegate.swift in Sources */,
+				9F0F750626709C65006F452A /* CockpitViewController.swift in Sources */,
 				BF9958A72670899D00ED60CD /* SceneDelegate.swift in Sources */,
+				07AD174426709DA4005D5308 /* ControlRoomViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
